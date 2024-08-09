@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:all": "turbo run build",
+    "dev": "sst dev"
+  },
+  "devDependencies": {
+    "test": "workspace:^",
+    "sst": "ion"
+  }
+}
